@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate with the best female programmer.
 - 📫 How to reach me: Veysha4
 - 😄 Pronouns: she/her/me
-
+- Role Model: DG💞️
 
 <!---
 RethabileBridgetVelelo/RethabileBridgetVelelo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
