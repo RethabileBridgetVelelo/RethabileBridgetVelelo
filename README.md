@@ -1,25 +1,24 @@
-/WEBDEVPART1ASSIGNMENTFLAGELLAR
-  ├── ImagesFlagellar/             # Contains images used in the project
-  │   ├── ai-conversation.jpg
-  │   ├── ai-structure.jpg
-  │   ├── chatbot-banner.jpg
-  │   ├── cryogenic-tomogram.jpg
-  │   ├── ... (more images)
-  │
-  ├── AI Chatbot.html               # AI Chatbot interface
-  ├── contact.html                  # Contact page
-  ├── Datasets&Tools.html           # Information about datasets and tools
-  ├── Explore_research.html         # Research exploration page
-  ├── forgot_password.html          # Password recovery page
-  ├── index.html                    # Main homepage
-  ├── Interactive_demo.html         # Interactive demo of the tool
-  ├── Learn_More.html               # Learn more about the project
-  ├── Publications.html             # Related publications and references
-  ├── Register_login.html           # User authentication page
-  ├── Research.html                 # Research details
-  ├── Reset.html                    # Password reset page
-  ├── VisualizationTools.html       # Visualization tool interface
-  ├── README.md                     # Documentation (this file)
+WEBDEVELOPMENTPART1ASSIGNMENTFLAGELLAR
+  ─ ImagesFlagellar/             # Contains images used in the project
+  ─ ai-conversation.jpg
+  ─ ai-structure.jpg
+  ─ chatbot-banner.jpg
+  ─ cryogenic-tomogram.jpg
+  Website
+─ AI Chatbot.html               # AI Chatbot interface
+─ contact.html                  # Contact page
+─ Datasets&Tools.html           # Information about datasets and tools
+─ Explore_research.html         # Research exploration page
+─ forgot_password.html          # Password recovery page
+─ index.html                    # Main homepage
+─ Interactive_demo.html         # Interactive demo of the tool
+─ Learn_More.html               # Learn more about the project
+─ Publications.html             # Related publications and references
+─ Register_login.html           # User authentication page
+─ Research.html                 # Research details
+─ Reset.html                    # Password reset page
+─ VisualizationTools.html       # Visualization tool interface
+─ README.md                     # Documentation (this file)
 
 
 1. Description
@@ -30,10 +29,10 @@ This web-based platform provides a visualization tool for detecting flagellar mo
 ✔️ User authentication system
 ✔️ Publications and dataset access
 
-2. 🚀 How to Use
+2.  How to Use
 Clone the repository:
 
-3. Link: 
+3. 👍 Link: 
 git clone https://github.com/RethabileBridgetVelelo/WEDE5020-Practical/commit/16215d6448cca4abdba62600a68964f3dd3c13bd
 Open index.html in a web browser.
 
