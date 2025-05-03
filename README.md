@@ -70,7 +70,7 @@ Available at: https://www.bing.com/ck/a?!&&p=e298bda4da8e45e96b5d82e565c6a14ef50
 Video.ai generator.2025.
 Available at: https://filmora.wondershare.net/ai-image-to-video.html?msclkid=28ab2352999e182889fd44bc6185011f&utm_source=bing&utm_medium=cpc&utm_campaign=Filmora_SS_UK_EN_Pid(1901)_United%20Kingdom_&utm_term=ai%20generated%20video%20maker%20free&utm_content=4.%20Function-AI%20Image-to-video
 [Accessed on: 18 March 2025].
---------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 For Part 2 of the Assignment, CSS was added to make this Webpage more alive and decorative, and a few things were implemented here, like the IMAGES were added, the footer as well, and the most interesting part, it's colors are quite unique, giving off the synthetic, aesthetic Scientific Lab works. Also, I have applied styling for mobile devices, tablets, and desktops.
 
 ## 🗂️ Project File Structure Overview
@@ -120,6 +120,7 @@ This project maintains a clean and modular file organization system. Below is a 
 | `twitter.jpg`             | Twitter logo icon                                      |
 | `vision-image.jpg`        | Vision statement visual                                |
 
+Link For Part 2: Link: https://github.com/RethabileBridgetVelelo/Flagellar-Website-Part-2/tree/8b5ffb81eb19e931194a6e220aa8b0641e853cd7/WebDevAssignmentFlagellar
 
 Referencing.
 DeCodeDev. 2024. Create a smooth Navigation Bar Animation using HTML & CSS. [Online].
