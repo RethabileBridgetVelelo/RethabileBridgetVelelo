@@ -3,10 +3,10 @@ WEBDEVELOPMENTPART1ASSIGNMENTFLAGELLAR
   ─ ai-conversation.jpg
   ─ ai-structure.jpg
   ─ chatbot-banner.jpg
-  ─ cryogenic-tomogram.jpg
+  ─ cryogenic-tomogram.jpg   
   Website
 ─ AI Chatbot.html               # AI Chatbot interface
-─ contact.html                  # Contact page
+─ contact.html                  # Contact page 
 ─ Datasets&Tools.html           # Information about datasets and tools
 ─ Explore_research.html         # Research exploration page
 ─ forgot_password.html          # Password recovery page
