@@ -143,4 +143,129 @@ True Coder. 2020. Awesome Contact Form Using HTML & CSS & JavaScript. True Coder
 Available at: https://youtu.be/rpujWVkmiPE?si=2Jl9mkCqf9Ip50rR
 [Accessed on: 30th April 2025]
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**RethaNova AI Lab**
+
+# RethaNova AI Lab 🌱🧬  
+**Website for Cryo-ET Powered Flagellar Motor Detection Tool**
+
+Welcome to the official website of the **RethaNova AI Lab**, a scientific platform dedicated to advancing bacterial cell research using **Cryogenic Electron Tomography (Cryo-ET)** and **Machine Learning (ML)**. This site showcases our latest project: an innovative **Virtualization Tool for Flagellar Motor Detection**.
+
+---
+
+## 🔬 Project Overview
+
+This platform hosts a cutting-edge research tool developed by Dr. Nienel Gebrou and Dr. Michael Pierce. It focuses on analyzing Cryo-ET data to detect and visualize **flagellar motors** in bacterial cells, using intelligent automation.
+
+### 🎯 Key Features:
+- **Cryo-ET data visualization**
+- **Flagellar motor detection using ML algorithms**
+- **Interactive UI** for researchers to upload, process, and review 3D datasets
+- **Voice-enabled AI chatbot** to assist users in understanding data and navigation
+- **Responsive and accessible website design**
+- **Real-time feedback** and progress monitoring for dataset uploads
+
+---
+
+## 🧠 Technologies Used
+
+| Frontend  | Backend / ML | Tools & Libraries | Deployment |
+|-----------|--------------|-------------------|------------|
+| HTML5, CSS3 (Modular) | Python (ML model) | TensorFlow / PyTorch (for model) | GitHub Pages / Netlify |
+| JavaScript (Interactivity) | Flask / Django (Python) | Cryo-ET Data Parsing Tools | |
+| Responsive Web Design | N/A (Static prototype version) | Web Speech API (voice AI) | |
+
+---
+
+## 📁 Project Structure
+Web Dev Flagellar Assignment/
+│
+├── index.html # Homepage
+├── about.html # About the Lab
+├── team.html # Researchers and contributors
+├── tool.html # Flagellar Motor Detection Tool (demo UI)
+├── cryoet-data.html # Sample cryo-ET datasets
+├── chatbot.html # AI Chatbot with voice support
+├── contact.html # Contact and location
+├── css/
+│ └── styles.css # Modular scientific CSS (deep blue & bio-green palette)
+├── js/
+│ ├── chatbot.js # Voice assistant logic
+│ └── interactivity.js # Tool animations, hover zoom, etc.
+└── assets/
+├── images/ # Microscope images, research visualizations
+└── datasets/ # Demo cryo-ET samples
+
+
+---
+
+## 🤖 Flagellar Motor Tool (Demo Version)
+
+The **Flagellar Motor Detection Tool** lets users:
+- Upload sample `.mrc` or `.tiff` Cryo-ET files
+- Visualize motor structures in 3D using WebGL or embedded preview
+- Receive ML-based detection predictions
+- View motor coordinates, annotations, and rotation metrics
+
+> Full detection pipeline is available upon request for scientific use. (Demo version is visualization-only.)
+
+---
+
+## 🧩 Voice AI Chatbot
+
+An interactive voice assistant guides users throughout the website:
+- Explains flagellar function and detection
+- Helps navigate research sections
+- Accessible for visually impaired researchers
+
+Uses: `Web Speech API` with fallback text interface.
+
+---
+
+## ✅ Accessibility & Design
+
+- Color contrast tested for scientific readability (deep navy, bio-green, white)
+- Responsive layout for desktop and mobile
+- Accessible fonts: Roboto, Inter, Open Sans
+- Alt-text for all images
+- Semantic HTML5 structure
+
+---
+
+## 🚀 Getting Started
+
+To run locally:
+1. Clone the repo:  
+   `git clone https://github.com/your-username/rethanova-ai-lab.git`
+2. Open `index.html` in your browser  
+3. Explore the interactive tool and chatbot features
+
+---
+
+## 🧪 Credits
+
+Developed by **Rethabile Bridget Velelo**  
+In collaboration with **Dr. Nienel Gebrou** and **Dr. Michael Pierce**(Hypothetical)
+
+With contributions from:
+- Rosebank College (Blomefontein)
+
+---
+
+## 📬 Contact
+
+For collaborations or dataset access:  
+📧 **bridgetrethabile37@gmail.com**  
+🌐 [www.rethanova-ai-lab.com](#)
+
+---
+
+## 📄 License
+
+MIT License. Free to use for educational and research purposes.  
+Commercial or medical use requires permission from the authors.
+
+---
+
+
 
