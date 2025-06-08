@@ -1,0 +1,113 @@
+header {
+    background-image: url(images/logo.jpg); /* Update with your actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;            /* Set width */
+    height: 150px;           /* Set height */
+    border-radius: 50%;      /* This creates the circle shape */
+    object-fit: cover;       /* Makes sure the image fills the circle */
+    
+}
+/*GENERAL STRUCTURE */
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    background-color: #0b1120;
+    color: #e0f2f1;
+  }
+  
+  /* 🧬 HEADER with background */
+  header {
+    background-image: url('images/logo.jpg'); /* Update with actual image */
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    border-bottom: 3px solid #1ef79d;
+    backdrop-filter: blur(6px);
+  }
+  
+  /* 🔗 NAVIGATION */
+  nav {
+    background-color: #0f172a;
+    text-align: center;
+    padding: 15px 0;
+  }
+  nav a {
+    color: #1ef79d;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 16px;
+  }
+  nav a:hover {
+    color: #00ffff;
+  }
+  
+  /* 🔬 RESEARCH SECTION */
+  .research-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .research-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1ef79d;
+    margin-bottom: 40px;
+  }
+  
+  /* 📊 GRID LAYOUT */
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+  }
+  
+  /* 🧪 RESEARCH CARD */
+  .research-card {
+    background-color: rgba(15, 23, 42, 0.8);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(30, 247, 157, 0.15);
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  .research-card:hover {
+    transform: translateY(-8px);
+  }
+  .research-card h3 {
+    color: #7dd3fc;
+    font-size: 22px;
+  }
+  .research-card p {
+    margin: 15px 0;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .research-list {
+    padding-left: 20px;
+    list-style: square;
+    color: #e0f2f1;
+  }
+  
+  /* 🖼️ IMAGE SPACE in Cards */
+  .research-card::before {
+    content: "";
+    display: block;
+    height: 160px;
+    background-image: url('images/ml-cryo.jpg'); /* Replace with real image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 10px rgba(30, 247, 157, 0.2);
+  }
+  
+  /* 📱 MOBILE RESPONSIVE */
+  @media (max-width: 600px) {
+    .research-section h2 {
+      font-size: 28px;
+    }
+  }
+  

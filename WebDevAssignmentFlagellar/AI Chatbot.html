@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="CSS/AIChatbot.css" />
+  </head>
+  <body>
+    <header></header>
+    <hr />
+    <nav>
+      <table cellspacing="5" cellpadding="5">
+        <tr>
+          <td><a href="index.html"> Home </a></td>
+          <td><a href="Research.html"> Research </a></td>
+          <td><a href="Datasets&Tools.html">Datasets & Tools</a></td>
+          <td><a href="Publications.html">Publications</a></td>
+          <td><a href="Interactive Demo.html">Interactive demo</a></td>
+          <td><a href="VisualizationTools.html">Visualization Tools</a></td>
+          <td><a href="AI Chatbot.html">AI Chatbot</a></td>
+          <td><a href="contact.html">Contact Page</a></td>
+        </tr>
+      </table>
+    </nav>
+
+    <div class="container">
+      <div class="response">
+        <img src="CSS/images/chatbot-banner.jpg" height="230px" />
+        <p id="res-text">Hi</p>
+        <p class="AI">I am Retha, How may I assist you?</p>
+        <p class="AI">Type 'quit' to exit</p>
+      </div>
+      <p class="AI">Type 'help' for a list of commands</p>
+      <p id="command-list"></p>
+
+      <div class="input-div">
+        <input type="text" id="myInput" placeholder="Ask me anything" />
+        <button type="button" id="myButton"><b>Send</b></button>
+        <p id="success-message"></p>
+      </div>
+    </div>
+    <script src="JavaScript/AIChatbot.js"></script>
+  </body>
+</html>

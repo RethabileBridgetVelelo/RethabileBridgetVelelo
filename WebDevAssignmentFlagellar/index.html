@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flagellar Motor Detection | RethaNova AI Lab</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Harnessing AI to decode complex biological structures using cryo-ET data and bacterial flagellar motor detection."
+    />
+    <meta
+      name="keywords"
+      content="flagellar motor, cryo-ET, AI biology tools, cryogenic electron tomography, RethaNova AI Lab, bacterial research, microscopy AI"
+    />
+    <meta name="author" content="Rethabile Bridget Velelo" />
+
+    <!-- Link to CSS (Make sure file path is correct) -->
+    <link rel="stylesheet" href="CSS/Index.css" />
+  </head>
+
+  <body>
+    <!-- Header with Logo -->
+    <header>
+      <h1>RethaNova</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="Research.html">Research</a>
+      <a href="Datasets&Tools.html">Datasets & Tools</a>
+      <a href="Publications.html">Publications</a>
+      <a href="Interactive_demo.html">Interactive demo</a>
+      <a href="VisualizationTools.html">Visualization Tools</a>
+      <a href="AI Chatbot.html">AI Chatbot</a>
+      <a href="contact.html">Contact Page</a>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search pages..."
+        onkeyup="liveSearch()"
+      />
+      <button>Search</button>
+      <ul id="suggestions"></ul>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero-content">
+        <h1 class="animate-text">RethaNova AI Lab</h1>
+        <p class="animate-text-delay">
+          Harnessing AI to decode complex biological structures
+        </p>
+        <a href="Research.html" class="cta-button">Explore Research</a>
+        <div class="particle-container" id="particles"></div>
+      </section>
+
+      <!-- Vision & Mission Section -->
+      <section id="vision" class="vision-section">
+        <div class="vision-card">
+          <h2>Our Mission</h2>
+          <p>
+            To harness AI and machine learning to decode complex biological
+            structures, enabling groundbreaking discoveries in medicine and
+            synthetic biology.
+          </p>
+        </div>
+
+        <div class="vision-card">
+          <h2>Our Vision</h2>
+          <p>
+            To revolutionize microscopic imaging and analysis, paving the way
+            for advancements in infectious disease research and therapeutic
+            development.
+          </p>
+          <div class="tooltip-content">
+            <p>
+              The RethaNova AI Lab combines cutting-edge cryo-electron
+              tomography (cryo-ET) with artificial intelligence and machine
+              learning to detect bacterial flagellar motors. Our research helps
+              scientists uncover microscopic structures with precision.
+            </p>
+            <a href="Research.html" class="cta-button">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Research Form -->
+      <section>
+        <h2>Participate in Our Research Survey</h2>
+        <button id="openSurveyBtn" class="cta-button">Take the Survey</button>
+
+        <div id="surveyModal" class="modal">
+          <div class="modal-content">
+            <span class="close-button" id="closeSurveyBtn">&times;</span>
+            <h2>🧬 RethaNova Research Survey</h2>
+            <form id="researchForm">
+              <label for="ageInput">Age (in years):</label><br />
+              <input
+                type="number"
+                id="ageInput"
+                name="ageInput"
+                required
+              /><br /><br />
+
+              <label for="knowledgeLevel">Familiarity with Cryo-ET:</label
+              ><br />
+              <select id="knowledgeLevel" name="knowledgeLevel" required>
+                <option value="">--Select--</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="expert">Expert</option></select
+              ><br /><br />
+
+              <label for="interest">
+                What interests you most about flagellar motor detection?</label
+              ><br />
+              <textarea
+                id="interest"
+                name="interest"
+                rows="4"
+                required
+              ></textarea
+              ><br /><br />
+
+              <button type="submit" class="cta-button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; <span id="year"></span> RethaNova AI Lab</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="JavaScript/index.js"></script>
+    <script>
+      // Auto-update footer year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

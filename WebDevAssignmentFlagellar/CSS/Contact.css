@@ -1,0 +1,188 @@
+header {
+    background-image: url(images/logo.jpg); /* Update with your actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;            /* Set width */
+    height: 150px;           /* Set height */
+    border-radius: 50%;      /* This creates the circle shape */
+    object-fit: cover;       /* Makes sure the image fills the circle */
+    
+}
+/* 🌐 GLOBAL STYLES */
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    background-color: #0b1120;
+    color: #e0f2f1;
+  }
+  
+  header {
+    background-image: url('images/logo.jpg'); /* Replace with actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+  }
+  
+  /* 🧭 NAVIGATION */
+  nav {
+    background-color: #0f172a;
+    padding: 15px 0;
+    text-align: center;
+  }
+  nav table {
+    margin: auto;
+  }
+  nav a {
+    color: #1ef79d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  nav a:hover {
+    color: #00ffff;
+    text-decoration: underline;
+  }
+  
+  /* 📞 CONTACT SECTION */
+  .contact-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .contact-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1ef79d;
+    margin-bottom: 40px;
+  }
+  
+  /* 📬 CONTACT CONTAINER */
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+  }
+  
+  /* ℹ️ CONTACT INFO */
+  .contact-info {
+    flex: 1 1 300px;
+    background-color: rgba(15, 23, 42, 0.85);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(30, 247, 157, 0.15);
+  }
+  .contact-info h3 {
+    color: #7dd3fc;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .contact-details p {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  
+  /* 🌐 SOCIAL MEDIA */
+  .social-media {
+    margin-top: 20px;
+  }
+  .social-media a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    filter: brightness(1.2);
+    transition: transform 0.2s ease;
+  }
+  .social-media a img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* 📜 COPYRIGHT & DISCLAIMER */
+  .contact-info .copyright,
+  .contact-info .disclaimer {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-top: 10px;
+    height: 12px;
+  }
+  
+  /* 🗣️ LANGUAGE ICONS */
+  .languages a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    margin-top: 10px;
+  }
+  
+  /* 📝 FORM */
+  .contact-form {
+    flex: 1 1 300px;
+    background-color: rgba(15, 23, 42, 0.85);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(30, 247, 157, 0.15);
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    color: #e0f2f1;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    resize: none;
+  }
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #94a3b8;
+  }
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #1ef79d;
+  }
+  
+  /* 📤 SUBMIT BUTTON */
+  .submit-btn {
+    background-color: #1ef79d;
+    border: none;
+    color: #0b1120;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .submit-btn:hover {
+    background-color: #00ffff;
+  }
+  
+  /* 📱 RESPONSIVE */
+  @media (max-width: 768px) {
+    .contact-container {
+      flex-direction: column;
+    }
+    .contact-section h2 {
+      font-size: 28px;
+    }
+    nav a {
+      display: block;
+      margin: 8px 0;
+    }
+  }
+ 
+  
+  
+  
+  

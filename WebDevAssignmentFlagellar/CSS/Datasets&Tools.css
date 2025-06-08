@@ -1,0 +1,124 @@
+header {
+    background-image: url(images/logo.jpg); /* Update with your actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;            /* Set width */
+    height: 150px;           /* Set height */
+    border-radius: 50%;      /* This creates the circle shape */
+    object-fit: cover;       /* Makes sure the image fills the circle */
+    
+}
+/* 🌐 GLOBAL STYLES */
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    background-color: #0b1120;
+    color: #e0f2f1;
+  }
+  
+  header {
+    background-image: url('images/logo.jpg'); /* Update with your actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+  }
+  
+  /* 🧭 NAVIGATION TABLE */
+  nav {
+    background-color: #0f172a;
+    padding: 15px 0;
+    text-align: center;
+  }
+  nav table {
+    margin: auto;
+  }
+  nav a {
+    color: #1ef79d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  nav a:hover {
+    color: #00ffff;
+    text-decoration: underline;
+  }
+  
+  /* 📁 SECTION TITLE */
+  .datasets-section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .datasets-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1ef79d;
+    margin-bottom: 40px;
+  }
+  
+  /* 🔲 GRID CONTAINER */
+  .datasets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+  }
+  
+  /* 📦 INDIVIDUAL CARD */
+  .dataset-card {
+    background-color: rgba(15, 23, 42, 0.85);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(30, 247, 157, 0.15);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  .dataset-card:hover {
+    transform: translateY(-8px);
+  }
+  .dataset-card h3 {
+    color: #7dd3fc;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  .dataset-card p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  
+  /* ⬇️ DOWNLOAD BUTTONS */
+  .download-btn {
+    background-color: #1ef79d;
+    border: none;
+    color: #0b1120;
+    padding: 10px 16px;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .download-btn:hover {
+    background-color: #00ffff;
+  }
+  
+  /* 📱 RESPONSIVE */
+  @media (max-width: 600px) {
+    .datasets-section h2 {
+      font-size: 28px;
+    }
+    nav a {
+      display: block;
+      margin: 8px 0;
+    }
+  }
+  .h3{
+    background-image: url();
+  }

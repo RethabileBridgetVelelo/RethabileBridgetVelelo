@@ -1,0 +1,140 @@
+header {
+    background-image: url(images/logo.jpg); /* Update with your actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;            /* Set width */
+    height: 150px;           /* Set height */
+    border-radius: 50%;      /* This creates the circle shape */
+    object-fit: cover;       /* Makes sure the image fills the circle */
+    
+}
+/* Import Font (Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #0d1b2a;
+  color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+
+/* Header */
+header {
+  background-color: #102542;
+  height: 150px;
+}
+
+/* Navigation */
+nav {
+  background-color: #1b263b;
+  padding: 10px 0;
+  border-bottom: 1px solid #00ffc3;
+}
+
+nav table {
+  margin: 0 auto;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00ffc3;
+  font-weight: 600;
+  padding: 10px 16px;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  background-color: #00ffc310;
+  color: #ffffff;
+}
+
+/* Section Layout */
+.demo-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1e2a38;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 255, 204, 0.1);
+}
+
+/* Section Heading */
+.demo-section h2 {
+  color: #00ffc3;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+}
+
+/* Viewer Container */
+.demo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* 3D Iframe Viewer */
+.demo-viewer iframe {
+  border-radius: 10px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  width: 100%;
+  max-width: 800px;
+  height: 480px;
+  border: none;
+}
+
+.demo-viewer iframe:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 24px rgba(0, 255, 204, 0.3);
+}
+
+/* Descriptive Text */
+.demo-viewer p {
+  font-size: 15px;
+  color: #cfd8dc;
+  margin-top: 12px;
+  padding: 10px;
+  background-color: #243447;
+  border-left: 4px solid #00ffc3;
+  border-radius: 8px;
+}
+
+/* Embedded Links */
+.demo-viewer a {
+  color: #00ffc3;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.demo-viewer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .demo-viewer iframe {
+    height: 320px;
+  }
+
+  .demo-section {
+    padding: 20px;
+  }
+
+  nav a {
+    display: block;
+    margin: 5px 0;
+  }
+
+  nav table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

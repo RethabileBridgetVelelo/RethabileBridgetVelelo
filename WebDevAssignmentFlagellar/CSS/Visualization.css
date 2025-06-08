@@ -1,0 +1,125 @@
+header {
+    background-image: url(images/logo.jpg); /* Update with your actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;            /* Set width */
+    height: 150px;           /* Set height */
+    border-radius: 50%;      /* This creates the circle shape */
+    object-fit: cover;       /* Makes sure the image fills the circle */
+    
+}
+/* 🌌 GLOBAL STYLES */
+body {
+    margin: 0;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    background-color: #0b1120;
+    color: #e0f2f1;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-image: url('images/logo.jpg'); /* Update to your actual logo path */
+    background-repeat: no-repeat;
+    background-size: 150px auto;
+    background-position: left center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  
+  /* 🧭 NAVIGATION */
+  nav {
+    background-color: #0f172a;
+    padding: 15px 0;
+    text-align: center;
+  }
+  nav table {
+    margin: auto;
+  }
+  nav a {
+    color: #1ef79d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+  nav a:hover {
+    color: #00ffff;
+    text-decoration: underline;
+  }
+  
+  /* 📊 PAGE HEADINGS */
+  h1 {
+    font-size: 32px;
+    color: #1ef79d;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* 🔬 CONTENT PARAGRAPH STYLING */
+  body p,
+  body li,
+  body b,
+  body br {
+    font-size: 16px;
+    color: #e0f2f1;
+  }
+  
+  b {
+    color: #7dd3fc;
+  }
+  
+  ul {
+    margin-left: 20px;
+  }
+  
+  /* ✅ KEY BENEFITS SECTION */
+  body {
+    counter-reset: benefit;
+  }
+  body br + br + br + br {
+    margin-bottom: 10px;
+  }
+  body b::before {
+    counter-increment: benefit;
+  }
+  
+  /* 🧬 CUSTOM HIGHLIGHTS */
+  body::selection {
+    background-color: #1ef79d;
+    color: #0b1120;
+  }
+  
+  /* 👥 RESEARCHERS SECTION */
+  .contact-info {
+    margin-top: 40px;
+    background-color: rgba(15, 23, 42, 0.85);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(30, 247, 157, 0.15);
+  }
+  .contact-info p {
+    margin: 10px 0;
+    color: #94a3b8;
+  }
+  
+  /* 📱 RESPONSIVE */
+  @media (max-width: 768px) {
+    nav a {
+      display: block;
+      margin: 8px 0;
+    }
+  
+    h1 {
+      font-size: 26px;
+    }
+  
+    body {
+      padding: 10px;
+    }
+  }
+  
