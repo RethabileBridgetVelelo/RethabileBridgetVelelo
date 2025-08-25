@@ -1,271 +1,175 @@
+<!-- README.md (Gradient banner + bubble dividers) -->
+
+<div align="center" style="background: linear-gradient(90deg, #ffb6d5, #aee6ff); padding: 30px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+  <h1 style="color:#ffffff; font-family:Arial, sans-serif; font-size:36px;">
+    🌸🫧 WEB DEVELOPMENT PART 1 ASSIGNMENT – FLAGELLAR 🫧💎
+  </h1>
+  <p style="color:#fff; font-size:18px; font-weight:500;">
+    A web-based platform for visualizing <b>Flagellar Motor Detection</b>  
+    using <b>Cryo-ET</b> data & Machine Learning  
+  </p>
+</div>
+
+---
+
+## 🗂️ Project File Structure  
+
+
+
+---
+
+## 🗂️ Project File Structure
+
 WEBDEVELOPMENTPART1ASSIGNMENTFLAGELLAR
-  ─ ImagesFlagellar/             # Contains images used in the project
-  ─ ai-conversation.jpg
-  ─ ai-structure.jpg
-  ─ chatbot-banner.jpg
-  ─ cryogenic-tomogram.jpg   
-  Website
-─ AI Chatbot.html               # AI Chatbot interface
-─ contact.html                  # Contact page 
-─ Datasets&Tools.html           # Information about datasets and tools
-─ Explore_research.html         # Research exploration page
-─ forgot_password.html          # Password recovery page
-─ index.html                    # Main homepage
-─ Interactive_demo.html         # Interactive demo of the tool
-─ Learn_More.html               # Learn more about the project
-─ Publications.html             # Related publications and references
-─ Register_login.html           # User authentication page
-─ Research.html                 # Research details
-─ Reset.html                    # Password reset page
-─ VisualizationTools.html       # Visualization tool interface
-─ README.md                     # Documentation (this file)
 
+ImagesFlagellar # Contains images used in the project
+a) ai-conversation.jpg
+b) ai-structure.jpg
+c) chatbot-banner.jpg
+d) cryogenic-tomogram.jpg
 
-1. Description
-This web-based platform provides a visualization tool for detecting flagellar motors in bacterial cells using machine learning and cryo-ET data. The system includes:
-✔️ AI Chatbot for assistance
-✔️ Research exploration tools
-✔️ Interactive visualization of cryo-ET images
-✔️ User authentication system
-✔️ Publications and dataset access
+ Website/
+a)  AI Chatbot.html # AI Chatbot interface
+b)  contact.html # Contact page
+c) Datasets&Tools.html # Info about datasets and tools
+d)  Explore_research.html # Research exploration page
+e)  forgot_password.html # Password recovery page
+f)  index.html # Main homepage
+g)  Interactive_demo.html # Interactive demo
+h)  Learn_More.html # Learn more about the project
+i)  Publications.html # Related publications
+j)  Register_login.html # Authentication page
+k)  Research.html # Research details
+l) Reset.html # Password reset
+m)  VisualizationTools.html # Visualization interface
 
-2.  How to Use
-Clone the repository:
-
-3. 👍 Link: https://github.com/RethabileBridgetVelelo/Flagellar-Website-Part-2/tree/8b5ffb81eb19e931194a6e220aa8b0641e853cd7/WebDevAssignmentFlagellar
-
-Navigate between pages using the menu.
-
-4. 🛠️ Technologies Used
-HTML5
-
-Machine Learning Integration
-
-5. AI Chatbot
-
-📌 Features
-✅ AI-powered chatbot for research assistance
-✅ Visualization tool for cryo-ET data
-✅ User authentication for secure access
-✅ Publication & dataset access
-
-6. 📧 Contact & Credits
-Developed by Rethabile Bridget Velelo
-Researchers: Rethabile Bridget Velelo
-For inquiries: 0646785516
-
-References
-
-GlobalTech Fix.2024. How to create README.md File for Github | Make README.md file to GitHub Repository. [online] Available at: <https://www.youtube.com/watch?v=6rQaX
-[Accessed on: 13 March 2025].
-
-Image generator ai.2025.
-Available at: https://www.bing.com/ck/a?!&&p=a3880f34b4bec98f0092ff4558e0455d0c925927c9885d9eaeb195d7f9f3fbd0JmltdHM9MTc0MzYzODQwMA&ptn=3&ver=2&hsh=4&fclid=1072dd02-b07d-67c0-3772-c8aeb10266de&psq=image+generator+ai&u=a1aHR0cHM6Ly9vcGVuYXJ0LmFpLz9tc29ja2lkPTEwNzJkZDAyYjA3ZDY3YzAzNzcyYzhhZWIxMDI2NmRl&ntb=1
-[Accessed on: 15 March 2025].
-
-SketchFab.2025.
-Available at: https://www.bing.com/ck/a?!&&p=e298bda4da8e45e96b5d82e565c6a14ef5049d75fc0833ef4071018e1480dc6fJmltdHM9MTc0MzYzODQwMA&ptn=3&ver=2&hsh=4&fclid=1072dd02-b07d-67c0-3772-c8aeb10266de&psq=sketching+of+the+3d+tomograms&u=a1aHR0cHM6Ly9saW5rLnNwcmluZ2VyLmNvbS9hcnRpY2xlLzEwLjEwMDcvczExMjYzLTAyNC0wMjI4Ni0y&ntb=1
-[Accessed on: 18 March 2025].
-
-Video.ai generator.2025.
-Available at: https://filmora.wondershare.net/ai-image-to-video.html?msclkid=28ab2352999e182889fd44bc6185011f&utm_source=bing&utm_medium=cpc&utm_campaign=Filmora_SS_UK_EN_Pid(1901)_United%20Kingdom_&utm_term=ai%20generated%20video%20maker%20free&utm_content=4.%20Function-AI%20Image-to-video
-[Accessed on: 18 March 2025].
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-For Part 2 of the Assignment, CSS was added to make this Webpage more alive and decorative, and a few things were implemented here, like the IMAGES were added, the footer as well, and the most interesting part, it's colors are quite unique, giving off the synthetic, aesthetic Scientific Lab works. Also, I have applied styling for mobile devices, tablets, and desktops.
-
-## 🗂️ Project File Structure Overview
-
-This project maintains a clean and modular file organization system. Below is a summary of the key resources in the `CSS` directory, which contains all design assets and page-specific styling for the web application.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ---
 
- CSS Styling Files
+─────── 🫧🌸🫧 ───────  
 
-| CSS File                | Purpose                                                             |
-|-------------------------|---------------------------------------------------------------------|
-| `AIChatbot.css`         | Styles for the AI chatbot interface and interactions               |
-| `Contact.css`           | Layout and styling for the Contact page and form                   |
-| `Datasets&Tools.css`    | CSS for the Datasets & Tools section                               |
-| `Index.css`             | Main landing page styles (hero section, layout, typography)        |
-| `InteractiveDemo.css`   | Styles for interactive demo features and hover/zoom effects        |
-| `Publications.css`      | Formatting and layout for the Publications page                    |
-| `Register_login.css`    | Design for Register and Login forms/pages                          |
-| `Research.css`          | Styles for Research section content and cards                      |
-| `Visualization.css`     | Styling for data visualizations and diagrams                       |
+## 1️⃣ Description  
+This platform provides a **visualization tool** for detecting flagellar motors in bacterial cells using **Machine Learning + Cryo-ET data**.  
+
+✨ It includes:  
+✔️ AI Chatbot for assistance  
+✔️ Research exploration tools  
+✔️ Interactive Cryo-ET visualization  
+✔️ User authentication system  
+✔️ Publications & dataset access  
 
 ---
 
- Image Assets (`CSS/images/`)
+─────── 🫧💎🫧 ───────  
 
-| Image Name                | Description                                             |
-|---------------------------|---------------------------------------------------------|
-| `Afrikaans.jpg`           | Language visual for multilingual support               |
-| `ai-conversation.jpg`     | AI chatbot interaction image                           |
-| `ai-structure.jpg`        | AI neural network structure                            |
-| `American Flag.jpg`       | American flag for localization/demo purposes           |
-| `chat-icon.png`           | Icon for chatbot toggle or messaging                   |
-| `chatbot-banner.jpg`      | Homepage chatbot section banner                        |
-| `cryogenic-tomogram.jpg`  | Scientific cryo-ET image                               |
-| `deep-kearning.jpg`       | Deep learning concept image                            |
-| `Facebook.jpg.webp`       | Facebook logo asset                                    |
-| `hero-image.jpg`          | Main hero section background image                     |
-| `instagram.jpg`           | Instagram icon for footer/socials                      |
-| `linkedin.jpg`            | LinkedIn logo for profile/contact section              |
-| `logo.jpg`                | Project or organization logo                           |
-| `mission-image.jpg`       | Visual for mission or goals section                    |
-| `ml-cryo.jpg`             | AI meets cryo-imaging visual                           |
-| `premium-demo-image.jpg`  | Visuals for demo previews                              |
-| `sotho.jpg`               | Image for Sotho language option                        |
-| `tool-screenshot.jpg`     | Screenshot of web tool interface                       |
-| `twitter.jpg`             | Twitter logo icon                                      |
-| `vision-image.jpg`        | Vision statement visual                                |
+## 2️⃣ How to Use  
 
-Link For Part 2: Link: https://github.com/RethabileBridgetVelelo/Flagellar-Website-Part-2/tree/8b5ffb81eb19e931194a6e220aa8b0641e853cd7/WebDevAssignmentFlagellar
+Clone the repository and explore the site:  
 
-Referencing.
-DeCodeDev. 2024. Create a smooth Navigation Bar Animation using HTML & CSS. [Online].
-Available at: https://youtube.com/shorts/Y1HHnuhlckI?si=H8HgapJRnNziiWbR
-[Accessed on: 30th April 2025].
-Proroz. 2022. How To Make Portfolio Website Using Html & Css | Step-by-Step Tutorial | 
-PraRoz Tutorial. Proroz. [online].
-Available at: https://youtu.be/fpze88HptWg?si=nIBo9OAnk_Ca8Kfz
-[Accessed on: 30th April 2025]
-Osmanghani0062. 2023. Virus 3D Model. Sketchfab. [online].
-Available at: Virus 3D Model - Download Free 3D model by osmanghani0062 
-(@osmanghani0062) [d2e053f]
-[Accessed on: 22 April 2025].
-Tals. 2025. Interactive Two-Sided Form Design: HTML, CSS, and JavaScript Magic!. Tals. 
-[online].
-Available at: https://youtu.be/L7yd9BUTjP8?si=dpx9a2T09GiAEmH3
-[Accessed on: 30th April 2025].
-True Coder. 2020. Awesome Contact Form Using HTML & CSS & JavaScript. True Coder. 
-[online].
-Available at: https://youtu.be/rpujWVkmiPE?si=2Jl9mkCqf9Ip50rR
-[Accessed on: 30th April 2025]
+🔗 [Repository Link](https://github.com/RethabileBridgetVelelo/Flagellar-Website-Part-2/tree/8b5ffb81eb19e931194a6e220aa8b0641e853cd7/WebDevAssignmentFlagellar)  
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**RethaNova AI Lab**
-
-# RethaNova AI Lab 🌱🧬  
-**Website for Cryo-ET Powered Flagellar Motor Detection Tool**
-
-Welcome to the official website of the **RethaNova AI Lab**, a scientific platform dedicated to advancing bacterial cell research using **Cryogenic Electron Tomography (Cryo-ET)** and **Machine Learning (ML)**. This site showcases our latest project: an innovative **Virtualization Tool for Flagellar Motor Detection**.
+Navigate using the menu bar for different sections.  
 
 ---
 
-## 🔬 Project Overview
+─────── 🫧🌸🫧 ───────  
 
-This platform hosts a cutting-edge research tool developed by Dr. Nienel Gebrou and Dr. Michael Pierce. It focuses on analyzing Cryo-ET data to detect and visualize **flagellar motors** in bacterial cells, using intelligent automation.
+## 3️⃣ 🛠️ Technologies Used  
 
-### 🎯 Key Features:
-- **Cryo-ET data visualization**
-- **Flagellar motor detection using ML algorithms**
-- **Interactive UI** for researchers to upload, process, and review 3D datasets
-- **Voice-enabled AI chatbot** to assist users in understanding data and navigation
-- **Responsive and accessible website design**
-- **Real-time feedback** and progress monitoring for dataset uploads
+- HTML5  
+- Machine Learning Integration  
 
 ---
 
-## 🧠 Technologies Used
+─────── 🫧💎🫧 ───────  
 
-| Frontend  | Backend / ML | Tools & Libraries | Deployment |
-|-----------|--------------|-------------------|------------|
-| HTML5, CSS3 (Modular) | Python (ML model) | TensorFlow / PyTorch (for model) | GitHub Pages / Netlify |
-| JavaScript (Interactivity) | Flask / Django (Python) | Cryo-ET Data Parsing Tools | |
-| Responsive Web Design | N/A (Static prototype version) | Web Speech API (voice AI) | |
+## 4️⃣ 🤖 AI Chatbot  
 
----
-
-## 📁 Project Structure
-Web Dev Flagellar Assignment/
-│
-├── index.html # Homepage
-├── about.html # About the Lab
-├── team.html # Researchers and contributors
-├── tool.html # Flagellar Motor Detection Tool (demo UI)
-├── cryoet-data.html # Sample cryo-ET datasets
-├── chatbot.html # AI Chatbot with voice support
-├── contact.html # Contact and location
-├── css/
-│ └── styles.css # Modular scientific CSS (deep blue & bio-green palette)
-├── js/
-│ ├── chatbot.js # Voice assistant logic
-│ └── interactivity.js # Tool animations, hover zoom, etc.
-└── assets/
-├── images/ # Microscope images, research visualizations
-└── datasets/ # Demo cryo-ET samples
-
+📌 **Features**  
+✅ AI-powered chatbot for research assistance  
+✅ Cryo-ET visualization tool  
+✅ User authentication system  
+✅ Publication & dataset access  
 
 ---
 
-## 🤖 Flagellar Motor Tool (Demo Version)
+─────── 🫧🌸🫧 ───────  
 
-The **Flagellar Motor Detection Tool** lets users:
-- Upload sample `.mrc` or `.tiff` Cryo-ET files
-- Visualize motor structures in 3D using WebGL or embedded preview
-- Receive ML-based detection predictions
-- View motor coordinates, annotations, and rotation metrics
+## 5️⃣ 📧 Contact & Credits  
 
-> Full detection pipeline is available upon request for scientific use. (Demo version is visualization-only.)
+👩‍💻 Developer: **Rethabile Bridget Velelo**  
+📚 Researchers: **Rethabile Bridget Velelo**  
+📞 For inquiries: **0646785516**  
 
 ---
 
-## 🧩 Voice AI Chatbot
+─────── 🫧💎🫧 ───────  
 
-An interactive voice assistant guides users throughout the website:
-- Explains flagellar function and detection
-- Helps navigate research sections
-- Accessible for visually impaired researchers
+## 📑 References  
 
-Uses: `Web Speech API` with fallback text interface.
-
----
-
-## ✅ Accessibility & Design
-
-- Color contrast tested for scientific readability (deep navy, bio-green, white)
-- Responsive layout for desktop and mobile
-- Accessible fonts: Roboto, Inter, Open Sans
-- Alt-text for all images
-- Semantic HTML5 structure
+- **GlobalTech Fix (2024).** How to create README.md File for GitHub. [YouTube](https://www.youtube.com/watch?v=6rQaX)  
+- **Image Generator AI (2025).** [Link](https://openart.ai)  
+- **SketchFab (2025).** [Link](https://link.springer.com/article/10.1007/s11263-024-02286-2)  
+- **Video.ai Generator (2025).** [Filmora AI](https://filmora.wondershare.net/ai-image-to-video.html)  
 
 ---
 
-## 🚀 Getting Started
+─────── 🫧🌸🫧 ───────  
 
-To run locally:
-1. Clone the repo:  
-   `git clone https://github.com/your-username/rethanova-ai-lab.git`
-2. Open `index.html` in your browser  
-3. Explore the interactive tool and chatbot features
+## ✨ Part 2 Updates  
 
----
-
-## 🧪 Credits
-
-Developed by **Rethabile Bridget Velelo**  
-In collaboration with **Dr. Nienel Gebrou** and **Dr. Michael Pierce**(Hypothetical)
-
-With contributions from:
-- Rosebank College (Blomefontein)
+- Added **CSS** for aesthetics  
+- Implemented **footer & images**  
+- Styled for **mobile, tablet & desktop**  
+- Unique **synthetic scientific color theme** (pink, blue, aesthetic lab style 🌸🧬)  
 
 ---
 
-## 📬 Contact
+─────── 🫧💎🫧 ───────  
 
-For collaborations or dataset access:  
-📧 **bridgetrethabile37@gmail.com**  
-🌐 [www.rethanova-ai-lab.com](#)
+## 🎨 CSS Styling Overview  
+
+| CSS File              | Purpose                                         |
+|-----------------------|-------------------------------------------------|
+| `AIChatbot.css`       | Styles chatbot interactions                     |
+| `Contact.css`         | Contact page & form design                      |
+| `Datasets&Tools.css`  | Styling datasets/tools section                  |
+| `Index.css`           | Homepage hero, typography, layout               |
+| `InteractiveDemo.css` | Interactive demo hover & zoom effects           |
+| `Publications.css`    | Publications layout                             |
+| `Register_login.css`  | Login & Register forms                          |
+| `Research.css`        | Research section & cards                        |
+| `Visualization.css`   | Data visualization diagrams                     |
 
 ---
 
-## 📄 License
+─────── 🫧🌸🫧 ───────  
 
-MIT License. Free to use for educational and research purposes.  
-Commercial or medical use requires permission from the authors.
+## 🖼️ Image Assets  
+
+| File Name              | Description                         |
+|------------------------|-------------------------------------|
+| `ai-conversation.jpg`  | AI chatbot interaction              |
+| `cryogenic-tomogram.jpg` | Cryo-ET data image                |
+| `chatbot-banner.jpg`   | Homepage chatbot section banner     |
+| `tool-screenshot.jpg`  | Tool interface screenshot           |
+| *(...and more for localization, socials & hero visuals)*     |
 
 ---
 
+─────── 🫧💎🫧 ───────  
 
-Link to my website: https://github.com/RethabileBridgetVelelo/RethabileBridgetVelelo/tree/main/WebDevAssignmentFlagellar
+## 🔗 Additional References  
+
+- DeCodeDev (2024). Smooth Navigation Bar Animation. [YouTube](https://youtube.com/shorts/Y1HHnuhlckI)  
+- Proroz (2022). Portfolio Website Tutorial. [YouTube](https://youtu.be/fpze88HptWg)  
+- Osmanghani0062 (2023). Virus 3D Model. [SketchFab](https://sketchfab.com/)  
+- Tals (2025). Two-Sided Form Design. [YouTube](https://youtu.be/L7yd9BUTjP8)  
+- True Coder (2020). Contact Form Tutorial. [YouTube](https://youtu.be/rpujWVkmiPE)  
+
+---
+
+<h2 align="center" style="color:#ff80c0;">  
+🌸🫧✨ RethaNova AI Lab – Powered by Science & Creativity ✨🫧🌸  
+</h2>
