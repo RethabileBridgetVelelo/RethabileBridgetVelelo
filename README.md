@@ -2,7 +2,7 @@
 
 <div align="center" style="background: linear-gradient(90deg, #ffb6d5, #aee6ff); padding: 30px; border-radius: 20px; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
   <h1 style="color:#ffffff; font-family:Arial, sans-serif; font-size:36px;">
-    🌸🫧 WEB DEVELOPMENT PART 1 ASSIGNMENT – FLAGELLAR 🫧💎
+    🌸🫧RETHABILE BRIDGET VELELO 🫧💎
   </h1>
   <p style="color:#fff; font-size:18px; font-weight:500;">
     A web-based platform for visualizing <b>Flagellar Motor Detection</b>  
