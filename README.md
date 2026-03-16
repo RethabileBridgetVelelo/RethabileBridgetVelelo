@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://github.com/RethabileBridgetVelelo.png" width="150" style="border-radius: 50%; border: 5px solid #ffafcc; animation: float 3s ease-in-out infinite;" />
+
 
 # Hi there 👋 I'm Rethabile Bridget Velelo 
 ### ✨ Full-Stack Developer | IT Student | ReDy Tech Developer with Dylan Gorrah ✨
