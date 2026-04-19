@@ -3,7 +3,7 @@
 
 
 # Hi there 👋 I'm Rethabile Bridget Velelo 
-### ✨ Full-Stack Developer | IT Student | ReDy Tech Developer with Dylan Gorrah ✨
+### ✨ Full-Stack Developer | IT Student | ReDy Tech Developer ✨
 
 
 ---
